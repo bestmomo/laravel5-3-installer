@@ -1,0 +1,17 @@
+{
+  "name": "bestmomo/laravel5-3-installer",
+  "description": "Helper for Laravel 5.3 application installation",
+  "homepage": "http://github.com/bestmomo/laravel5-3-installer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bestmomo",
+      "email": "grandheretique@free.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bestmomo\\Installer\\": "src/"
+    }
+  }
+}
