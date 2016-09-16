@@ -19,20 +19,12 @@ This repository is the Laravel 5.3 version of [this one](https://github.com/best
 
 ### Installation
 
-Add Installer to your composer.json file to require it :
+Type :
 ```
-    require : {
-        ...
-        "bestmomo/laravel-installer": "1.0.*"
-    }
+    composer require bestmomo/laravel5-3-installer
 ```
 
-Update Composer :
-```
-    composer update
-```
-
-The next required step is to add the service provider to config/app.php :
+Add the service provider to config/app.php :
 ```
     Bestmomo\Installer\InstallerServiceProvider::class,
 ```
